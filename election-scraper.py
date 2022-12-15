@@ -1,5 +1,5 @@
 """
-projekt_3.py: treti projekt do Engeto Online Python Akademie
+treti projekt do Engeto Online Python Akademie
 author: Tomáš Mokrý
 email: tomas.mokry@gmail.com
 discord: Tomas M#0922
