@@ -12,13 +12,13 @@ $ pip install -r requirements.txt   # insall all libraries
 ## **How to run the project**
 You will run the `election-scraper.py` in terminal and use 2 required arguments
 ```
-python3 election-scraper.py <odkaz-uzemniho-celku> <vysledny-soubor>
+python3 election-scraper.py <link-uzemni-celek> <result-file-name>
 ```
 You can find .csv file saved in your folder with the results.
 ## **Project preview**
 Election results for okres Prostejov:
-- 1. argument: `https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12xnumnuts=7103`
-- 2. argument: `results-prostejov.csv`
+- 1 argument: `https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12xnumnuts=7103`
+- 2 argument: `results-prostejov.csv`
 
 ### Run the program in terminal:
 ```
@@ -28,7 +28,7 @@ python3 election-scraper.py 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&x
 ```
 DOWNLOADING DATA FROM URL: 'https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103'
 SAVING TO FILE: results-prostejov.csv
-UKONCUJI election-scraper
+ENDING election-scraper
 ```
 ### Result preview:
 ```
