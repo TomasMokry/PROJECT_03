@@ -185,7 +185,6 @@ def get_atribut_reg_env_val_main(tr_tag: "bs4.element.ResultSet") -> dict:
         'valid' : tr_tag[7].get_text(strip=True)
         }
     
-
 def get_atribut_reg_env_val_sub(tr_tag: "bs4.element.ResultSet") -> dict:
     """
     From every row (tr) takes certain cells (td)[index]
@@ -199,7 +198,6 @@ def get_atribut_reg_env_val_sub(tr_tag: "bs4.element.ResultSet") -> dict:
         'valid' : tr_tag[4].get_text(strip=True)
         }
     
-
 def find_all_reg_evn_val(soups: list) -> list:
     """
     From soup of main page find all registred, envelopes, valid and appends
