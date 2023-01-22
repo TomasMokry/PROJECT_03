@@ -6,8 +6,7 @@ This project is made for web scraping of the 2017 Parlament election results. [H
 ## **Virtual enviroment and libraries installation**
 You can find all libraries that I used in my code in the ```requirements.txt``` file. For installation I could recommend a new virtual environment and install with the manager as follows:
 ```Python
-# Create a virtual environment:
-python3 -m venv tutorial-env
+python3 -m venv tutorial-env         # Create a virtual environment
 
 source tutorial-env/bin/activate     # Activate it in Linux
 
