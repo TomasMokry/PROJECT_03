@@ -3,9 +3,19 @@
 ---
 ## **Project description**
 This project is made for web scraping of the 2017 Parlament election results. [Here](https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103) you can find a link to the Parlament election website.
-## **Libraries installation**
+## **Virtual enviroment and libraries installation**
 You can find all libraries that I used in my code in the ```requirements.txt``` file. For installation I could recommend a new virtual environment and install with the manager as follows:
 ```Python
+# Create a virtual environment:
+python3 -m venv tutorial-env
+
+# Activate it
+# Linux: source tutorial-env/bin/activate
+# Windows: tutorial-env\Scripts\activate.bat
+
+# Deactivate it
+# deactivate
+
 $ pip3 --version                    # checking the manager version
 $ pip3 install -r requirements.txt   # insall all libraries
 ```
