@@ -7,7 +7,7 @@ This project is made for web scraping of the 2017 Parlament election results. [H
 You can find all libraries that I used in my code in the ```requirements.txt``` file. For installation I could recommend a new virtual environment and install with the manager as follows:
 ```Python
 $ pip3 --version                    # checking the manager version
-$ pip install -r requirements.txt   # insall all libraries
+$ pip3 install -r requirements.txt   # insall all libraries
 ```
 ## **How to run the project**
 You will run the `election-scraper.py` in terminal and use 2 required arguments
