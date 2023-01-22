@@ -9,15 +9,13 @@ You can find all libraries that I used in my code in the ```requirements.txt``` 
 # Create a virtual environment:
 python3 -m venv tutorial-env
 
-# Activate it in Linux: 
-source tutorial-env/bin/activate
-# Activate it in Windows: 
-tutorial-env\Scripts\activate.bat
+source tutorial-env/bin/activate     # Activate it in Linux
 
-# Deactivate it
-deactivate
+tutorial-env\Scripts\activate.bat    # Activate it in Windows
 
-$ pip3 --version                    # checking the manager version
+deactivate                           # Deactivate it
+
+$ pip3 --version                     # checking the manager version
 $ pip3 install -r requirements.txt   # insall all libraries
 ```
 ## **How to run the project**
